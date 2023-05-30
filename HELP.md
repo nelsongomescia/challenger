@@ -19,9 +19,7 @@ If everything is OK first we call
 
 # DB Layer
 To update this information in database
-We added a Synchronized option to avoid concurrence problems
-
-If everything is OK during update Database process, we call
+We used some Java Atomic Methods to avoid concurrency problems
 
 # Notification Process
 Here we are going to send a msg to both accounts saying what happened.
